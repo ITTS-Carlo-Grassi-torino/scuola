@@ -12,9 +12,9 @@ class PGHome(CPG):
 	def getPG(self):
 		self.corpo="<form action='pgSN' method='POST'>"
 		self.corpo+="<INPUT type='text'  name='txtUsr' placeholder='user'><br>"
-		self.corpo+="<INPUT type='text'  name='txtVecchia' placeholder='password vecchia'><br>"
-		self.corpo+="<INPUT type='text' name='txtNuova' placeholder='password nuova'><br>"
-		self.corpo+="<INPUT type='text' name='txtConferma' placeholder='password confema'><br>"
+		self.corpo+="<INPUT type='password'  name='txtVecchia' placeholder='password vecchia'><br>"
+		self.corpo+="<INPUT type='passwor' name='txtNuova' placeholder='password nuova'><br>"
+		self.corpo+="<INPUT type='password' name='txtConferma' placeholder='password confema'><br>"
 		self.corpo+="<INPUT type='submit' value='aggiorna password'><br>"
 		self.corpo+="</form>"
 		
